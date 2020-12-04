@@ -1,0 +1,13 @@
+/auth XXXX
+GET /auth/users?
+  query string filters
+    search(username), 
+    with_profile(yes/no),
+    user_role(student/admin/teacher)
+DELETE /auth/:id/soft/delete 
+POST /auth/signup (username, password, school_id)
+POST /auth/signin (username, password)
+
+
+POST /profiles/save
+PATCH /profiles/update/:id
