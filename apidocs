@@ -1,4 +1,5 @@
 /auth XXXX
+
 GET /auth/users?
   query string filters
     search(username), 
@@ -11,3 +12,9 @@ POST /auth/signin (username, password)
 
 POST /profiles/save
 PATCH /profiles/update/:id
+
+POST /schools/save
+PATCH /schools/update/:id
+GET /schools?
+  query string filters
+    search(name), 
